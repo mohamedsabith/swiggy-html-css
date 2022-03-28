@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+}
+.header{
+    position: absolute;
+    background-color: #fff;
+    width: 55%;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 24px;
+    height: 70%;
+
+}
+.logo{
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 155px;
+    transition: .5s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.bgimg{
+    position: absolute;
+     top: 0; 
+     background-repeat: no-repeat; 
+     margin-left: 840px; 
+}
+.login{
+    position: absolute;
+    color: black;
+     font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+      margin-top: 60px; 
+      margin-left: 550px;
+       font-size: 16px; 
+       font-weight: 700;
+        height: 40px; 
+        line-height: 60px;
+         padding: 0 2rem;
+}
+.btn{
+    position: absolute;
+   background-color: #000;
+   margin-top: 70px;
+   margin-left: 660px;
+   text-align: center;
+   color: #fff;
+   border: 2px solid #000;
+   width: 110px;
+   height: 40px;
+   font-size: 14px;
+   font-weight: 700;
+   box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+}
+.head1{
+    position: absolute;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-top: 180px;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -.45px;
+    margin-left: 145px;
+}
+.sub1{
+    position: absolute;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-top: 230px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 145px;
+    opacity: 0.5;
+}
+.search {
+    width: 600px;
+    position: absolute;
+    display: flex;
+    margin-left: 145px;
+  }
+  
+  .searchTerm {
+      opacity: 0.5;
+    width: 910px;
+    border: 3px solid rgb(184, 175, 175);
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    margin-top: 300px;
+  
+  }
+  
+  .searchTerm:focus{
+    color: #000;
+    
+  }
+  
+  .searchButton {
+    width: 300px;
+    font-weight: 900;
+    height: 65px;
+    border: 1px solid #fc8019;
+    background: #fc8019;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 300px;
+  }
+  .sub2{
+    margin-top: 400px;
+     position: absolute;
+      margin-left: 145px; 
+      font-weight: 400;
+      font-size: 15px;
+      color: #a9abb2;
+      letter-spacing: -.2px;
+      text-transform: uppercase;
+      font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+  }
+.sub3{
+    margin-top: 430px;
+    word-spacing: 2px;
+    position: absolute;
+     margin-left: 145px; 
+     font-weight: 400;
+     font-size: 15px;
+     color: #a9abb2;
+     letter-spacing: -.2px;
+     text-transform: uppercase;
+     font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.section{
+    position: absolute;
+    width: 100%;
+    background-color: #2b1e16;
+    height: 380px;
+    margin-top: 520px;
+}
+.sectionimg{
+    margin-left:300px;
+}
+.sectionmain{
+     color: #fff; 
+     font-size: 20px; 
+     font-weight: 600;
+      font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+       margin-left: 255px;
+}
+.sectionsub{
+     color: #e0cbc1; 
+     font-size: 15px;
+      margin-left: 220px;
+      text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.sectionimg1{
+    margin-left:700px;
+}
+.sectionmain1{
+    color: #fff; 
+     font-size: 20px; 
+     font-weight: 600;
+      font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+       margin-left: 655px;
+}
+.sectionsub1{
+    color: #e0cbc1; 
+    font-size: 15px;
+     margin-left: 630px;
+     text-align: center;
+   font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.sectionimg2{
+    margin-left:1100px;
+}
+.sectionmain2{
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: 600;
+     font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+      margin-left: 1055px;
+}
+.sectionsub2{
+    color: #e0cbc1; 
+    font-size: 15px;
+     margin-left: 1040px;
+     text-align: center;
+   font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.download{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 350px;
+    margin-top: 900px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    height: 100px;
+    margin-top: 1440px;
+}
